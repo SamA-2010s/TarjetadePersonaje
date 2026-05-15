@@ -1,0 +1,31 @@
+body {
+    background-color: #1E201F;   
+    border: 2px solid #009bb3;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+div h1 {
+    color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+div h2 {
+    color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+div p {
+    text-align: left;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: white
+}
