@@ -1,31 +1,37 @@
 body {
-    background-color: #1E201F;   
-    border: 2px solid #009bb3;
-    border-radius: 10px;
-    background-size: cover;
-    display: flex;
+    background-image: url("d:\Users\Usuario\Pictures\Samuel Imagenes y Cosas\EEST5\5°4\Teleinformática\Introducción a CSS\Tarjeta de Personaje\Windows XP.jpg");
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
     justify-content: center;
+    justify-items: center;
     margin: 20px;
 }
 
-div h1 {
-    color: white;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 100px;
-  font-style: normal;
+.box {
+    background-color: #1E201F;   
+    border: 2px solid #009bb3;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
 }
 
-div h2 {
+div h1 {
+    text-align: center;
     color: white;
   font-family: "Archivo Black", sans-serif;
-  font-weight: 100px;
+  font-weight: 100;
   font-style: normal;
 }
 
 div p {
-    text-align: left;
-      font-family: "Archivo Black", sans-serif;
-  font-weight: 400px;
+  text-align: left;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: white
 }
